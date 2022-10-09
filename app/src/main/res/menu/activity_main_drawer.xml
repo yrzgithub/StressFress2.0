@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/habits"
+            android:title="@string/menu_habits" />
+        <item
+            android:id="@+id/articles"
+            android:title="@string/menu_articles" />
+
+        <item
+            android:id="@+id/research"
+            android:title="@string/menu_research"/>
+
+        <item
+            android:id="@+id/techniques"
+            android:title="@string/menu_techniques"/>
+
+        <item
+            android:id="@+id/about"
+            android:title="@string/menu_about"/>
+
+    </group>
+</menu>
